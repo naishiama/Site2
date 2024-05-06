@@ -39,23 +39,31 @@ body {
     background: url(./images/images.jpg);
     /* background-repeat: no-repeat; */
     background-size: 50% 500%;
-    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 /* do not touch above */
-
-li {
-    /* width: 500px; */
-    padding: 10px;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
 
 li a {
-    
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
   }
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: #ffffff08;
+    color: wheat;
   }
 
 /* main structure of page */
@@ -168,3 +176,126 @@ li a {
        transform: translate(0);
     }
  }
+
+ /* SOCIAL MEDIA PLUG */
+ .fa {
+    padding:15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-twitter {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-google {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-linkedin {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-youtube {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-instagram {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-pinterest {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-snapchat-ghost {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-android {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-dribbble {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-vimeo {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-tumblr {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-vine {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-foursquare {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-stumbleupon {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-flickr {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-yahoo {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-soundcloud {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-reddit {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-rss {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  /* SOCIAL MEDIA PLUG END */
